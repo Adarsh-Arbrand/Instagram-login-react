@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sign-in{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    border: 2px #454545aa solid;
+    border-radius: 15px;
+}
+#sign-in img{
+   max-height: 130px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+.fields input{
+    padding: 10px;
+    margin: 5px 20px;
+}
+.fields button{
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: rgb(0, 166, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+#sign-in p{
+    text-align: center;
+    margin: 5px 0;
+
+}
+
+#sign-in a{
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.515);
+}
